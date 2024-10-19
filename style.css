@@ -7,7 +7,7 @@ html, body {
   
   .parent-div-1, .parent-div-2 {
     margin: 2rem;
-    position: absolute;
+    position: relative;
     width: 90%;
     border-radius: 16px;
     background-color: #f9f9f9;
@@ -30,7 +30,7 @@ html, body {
     padding: 12px 28px 12px 28px;
     gap: 12px;
     border-radius: 8px;
-    opacity: 0px;
+   /* opacity: 0px; */
     background-color: #322E80;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -42,7 +42,7 @@ html, body {
     padding: 12px 28px 12px 28px;
     gap: 2rem;
     border-radius: 8px;
-    opacity: 0px;
+    /* opacity: 0px; */
     background-color: #FBFBFB;
     color: #6B7280;
     font-family: "Poppins", sans-serif;
@@ -54,7 +54,7 @@ html, body {
 
   .container {
     margin: 2rem;
-    position: absolute;
+    position: relative;
     width: 1170.19px;
     border-radius: 16px;
     background-color: #f9f9f9;
@@ -67,12 +67,11 @@ html, body {
   }
     
   
-  .card1{
+  .card1, .card2{
     flex: 1;
+    padding: 1rem;
   }
-  .card2{
-    flex: 1;
-  }
+  
   
   .card-a, .card-b, .card-c, .card-d {
     padding: 15px;
